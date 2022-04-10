@@ -26,6 +26,7 @@ function App() {
 
   const addToMovieList = (type) => {
     setMovieList([...movieList, { ...searchMovie, cat: type }]);
+    setSearchMovie("");
 
     //make the top card disapper after we click the button
   };
