@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiEp = "http://www.omdbapi.com/?apikey=4c8be5cb&";
+const apiEp = "https://www.omdbapi.com/?apikey=4c8be5cb&";
 
 export const fetchMovie = (title) => {
   try {
